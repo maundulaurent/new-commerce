@@ -1,0 +1,245 @@
+{% extends 'basic/base.html' %}
+{% load static %}
+
+
+{% block content %}
+
+<div class="container-fluid py-5 mt-5" >
+
+  <div class="row pt-5">
+      <!-- Sidebar -->
+      <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-light pt-5 mt-5 sidebar collapse">
+          <div class="position-sticky">
+              <ul class="nav flex-column py-4">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">
+                        <i class="bi bi-basket3"></i>
+                          Official Stores
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <i class="bi bi-tablet"></i>
+                          Phones & Tablets
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <i class="bi bi-tv"></i>
+                          TVs & Audio
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <i class="bi bi-ui-radios"></i>
+                          Appliances
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <i class="bi bi-person-arms-up"></i>
+                          Healthy & Beauty
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <i class="bi bi-building-check"></i>
+                          Home & Office
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <i class="bi bi-watch"></i>
+                          Fashion
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <i class="bi bi-laptop"></i>
+                          Computers and Technology
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <i class="bi bi-shop"></i>
+                          Supermarket
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <i class="bi bi-backpack2"></i>
+                          Baby Products
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <i class="bi bi-dice-5-fill"></i>
+                          Sporting Goods
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <i class="bi bi-bricks"></i>
+                          Other Categories
+                      </a>
+                  </li>
+                  
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <i class="bi bi-intersect"></i>
+                          Integrations
+                      </a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+
+      <!-- Main content -->
+      <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+              <h1 class="h2">Phones & Tablets</h1>
+              <div class="btn-toolbar mb-2 mb-md-0">
+                  <div class="btn-group me-2">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
+                  </div>
+                  <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
+                      <span data-feather="calendar"></span>
+                      This week
+                  </button>
+              </div>
+          </div>
+
+          <!-- Your dashboard content here -->
+          <h3>Top Deals | Phones & Accessories</h3>
+          <div class="row items mt-4">
+            <div class="col-md-3">
+                <div class="card mb-4">
+                    <img src="{% static 'images/infinix.jpg' %}" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Product Title 1</h5>
+                        <p class="card-text">This is a brief description of the product.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4">
+                    <img src="{% static 'images/techno.jpg' %}" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Product Title 2</h5>
+                        <p class="card-text">This is a brief description of the product.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4">
+                    <img src="{% static 'images/camon.jpg' %}" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Product Title 3</h5>
+                        <p class="card-text">This is a brief description of the product.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4">
+                    <img src="{% static 'images/team5.png' %}" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Product Title 4</h5>
+                        <p class="card-text">This is a brief description of the product.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4">
+                    <img src="{% static 'images/team5.png' %}" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Product Title 5</h5>
+                        <p class="card-text">This is a brief description of the product.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4">
+                    <img src="{% static 'images/team5.png' %}" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Product Title 6</h5>
+                        <p class="card-text">This is a brief description of the product.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4">
+                    <img src="{% static 'images/team5.png' %}" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Product Title 6</h5>
+                        <p class="card-text">This is a brief description of the product.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4">
+                    <img src="{% static 'images/team5.png' %}" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Product Title 6</h5>
+                        <p class="card-text">This is a brief description of the product.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4">
+                    <img src="{% static 'images/team5.png' %}" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Product Title 6</h5>
+                        <p class="card-text">This is a brief description of the product.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4">
+                    <img src="{% static 'images/team5.png' %}" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Product Title 6</h5>
+                        <p class="card-text">This is a brief description of the product.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4">
+                    <img src="{% static 'images/team5.png' %}" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Product Title 6</h5>
+                        <p class="card-text">This is a brief description of the product.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4">
+                    <img src="{% static 'images/team5.png' %}" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Product Title 6</h5>
+                        <p class="card-text">This is a brief description of the product.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </main>
+  </div>
+</div>
+
+
+
+ 
+
+{% endblock %}
